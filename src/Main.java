@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TestMain {
+public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -109,6 +109,7 @@ public static void sum(int a , int b) {
 
     public  static int readValue2(){
         System.out.println("Enter first number");
+        //System.out.println("123456");
         int b = scanner.nextInt();
         return b;
     }
